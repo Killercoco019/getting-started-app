@@ -1,6 +1,6 @@
 # Pour tout push dans le repo
 # - déclencher le build d'une nouvelle image docker en utilisant le Dockerfile
-# - et faire un push vers dockerHub
+# - et faire un push vers dockerHub .
 
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub ACtions
