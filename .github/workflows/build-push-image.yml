@@ -2,5 +2,11 @@
 # - déclencher le build d'une nouvelle image docker en utilisant le Dockerfile
 # - et faire un push vers dockerHub
 
-name: build and push image
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub ACtions
 on: [push]
+jobs : 
+  check-bats-version:
+    runs-on: unbuntu-latest
+    steps:
+      - uses: actions/checkout@v3
